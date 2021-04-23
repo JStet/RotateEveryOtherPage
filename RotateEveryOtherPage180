@@ -1,0 +1,20 @@
+#!/bin/bash
+if ! command -v COMMAND &> /dev/null
+then
+    while true; do
+        read -p "Is the first page upside down? (y/n)" yn
+    case $yn in
+        [Yy]* ) pdftk A=$1 shuffle AoddSouth Aeven output $2; break;;
+        [Nn]* ) pdftk A=$1 shuffle Aodd AevenSouth output $2; break;;
+        * ) echo "Please answer yes or no.";;
+        esac
+    done
+else 
+  echo "This script requires Pdftk but it is not installed or not in PATH"
+  exit
+fi
+
+
+
+
+ 
