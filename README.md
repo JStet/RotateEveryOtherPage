@@ -1,10 +1,10 @@
 # RotateEveryOtherPage
 
-This ridicolously simple and creatively named Bash script was written to solve an annoying problem I recently faced. Every other page of some scanned pdf files I had to read for university was turned upside down. I made use of [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/).
+This ridiculously simple and creatively named Bash script was written to solve an annoying problem I recently faced. Every other page of some scanned pdf files I had to read for university was turned upside down. I made use of [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/).
 
 ## Dependecies
 
-This script requires pdftk.
+Pdftk
 
 ## Installation
 
