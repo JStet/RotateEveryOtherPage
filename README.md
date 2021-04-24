@@ -8,7 +8,7 @@ Pdftk
 
 ## Installation
 
-Just clone and make it executable (maybe add it to your path).
+Just clone and make it executable (maybe add it to your PATH).
 
 ## Usage
 
