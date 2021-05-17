@@ -4,7 +4,7 @@ This ridiculously simple and creatively named Bash script was written to solve a
 
 ## Dependecies
 
-Pdftk
+[Pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
 
 ## Installation
 
